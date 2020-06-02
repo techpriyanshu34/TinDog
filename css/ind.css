@@ -1,0 +1,142 @@
+#title{
+   background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 12%;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family:  "Montserrat-bold";
+}
+h2{
+  text-align: center;
+}
+
+h3{
+    text-align: center;
+   font-size: 1.5rem;
+}
+.pri{
+        margin-left: 100px;
+}
+p{
+  color: #ff4c68;
+  text-align: center;
+}
+/*  Heading */
+      .big-heading{
+        font-size: 3.5rem;
+         line-height: 1.5;
+         color:white;
+      }
+
+}
+
+
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:  bold;
+  }
+.navbar{
+  padding-bottom:0 0 0 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+    position: absolute;
+    right: 30px;
+}
+#features{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #fff;
+     position: relative;
+     z-index: 1;
+  }
+     .icon{
+       color: #ef8172;
+       margin-bottom: 1rem;
+     }
+.icon:hover{
+color: #ff4c68;
+  }
+     /*testimonials */
+#testimonials{
+        padding: 7% 15%;
+        text-align: center;
+        background-color: #ef8172;
+
+}
+.testimonial-image{
+      width: 10%;
+      border-radius: 100%;
+      margin:10px;
+}
+.carousel-item{
+       padding: 7% 15%;
+}
+
+    /*    Press   */
+#press{
+        background-color: #ef8172;
+        text-align: center;
+        padding-bottom: 3%;
+  }
+.press-logo{
+         width: 15%;
+         margin: 20px 20px 50px;
+       }
+.pricing{
+  padding: 3%;
+}
+.pricing-column{
+  padding: 3%;
+}
+@media(max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+@media(max-width: 1028px){
+.#title{
+     text-align: center;
+}
+}
+/*    Cta */
+#cta{
+    background-color: #ff4c68;
+      color: #fff;
+     padding:   7% 15%;
+}
+.cta-heading{
+   font-family: "Montserrat-Black";
+font-size: 3.5rem;
+height: 1:5;
+text-align: center;
+}
+#footer{
+  position: absolute;
+  left:350px;
+  padding: 7% 15%;
+  font-size: 1.5rem;
+}
+.footer1{
+  margin: 15px;
+}
+.butt{
+     margin: 20px;
+    position: relative;
+    left: 350px;
+}
